@@ -88,9 +88,9 @@ Sourced from the World Health Organization (WHO), this dataset provides authorit
 
 ---
 ## Report Enhancements
-- **Conditional Formatting**: Highlight key trends.
-- **Slicers & Filters**: Enable dynamic data exploration.
-- **Bookmarks & Drillthrough**: Improve navigation and depth of analysis.
+- **Conditional Formatting**: Highlighted key trends.
+- **Slicers & Filters**: Enabled dynamic data exploration.
+- **Bookmarks & Drillthrough**: Improved navigation and depth of analysis.
 
 ---
 ## Advanced Analytics
