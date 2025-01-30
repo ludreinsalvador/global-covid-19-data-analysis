@@ -111,10 +111,10 @@ The dataset, sourced from the World Health Organization (WHO), provides authorit
 
 ## Dashboards
 - <a href="https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/WHO_global-covid-19_dashboards.pdf">PDF File</a>
-- ![Global Covid-19 Overview](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-covid-19_overview.png)
-- ![Global Vaccination Analysis](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-vaccination_analysis.png)
-- ![2023 Vaccination Rates](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/2023_vaccination-rates.png)
-- ![Global Covid-19 Trends Outcome](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-covid-19_trends-outcome.png)
-- ![Global Vaccination Trends Influencers](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-vaccination_trends-influencers.png)
+![Global Covid-19 Overview](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-covid-19_overview.png)
+![Global Vaccination Analysis](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-vaccination_analysis.png)
+![2023 Vaccination Rates](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/2023_vaccination-rates.png)
+![Global Covid-19 Trends Outcome](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-covid-19_trends-outcome.png)
+![Global Vaccination Trends Influencers](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-vaccination_trends-influencers.png)
 
 
