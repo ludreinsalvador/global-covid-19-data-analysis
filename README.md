@@ -51,10 +51,43 @@ The dataset, sourced from the World Health Organization (WHO), provides authorit
   - Color/Size Indicators: Number of cases, Deaths, Vaccination rates
 
 ## Process
-- Data Cleaning (WHO-COVID-19)
-  - Replaced 'null' values with '0': Ensured missing data for COVID-19 metrics (cases, deaths) is represented as zero, rather than leaving gaps in the dataset.
-Replaced blank rows with Other: For rows where no data is available, blank spaces were replaced with a generic "Other" category to avoid errors in analysis.
-Changed data types:
-Converted Decimal Numbers to Whole Numbers where appropriate to match the expected format for certain fields (e.g., case counts, deaths, etc.).
+#### Data Cleaning (WHO-COVID-19)
+- Replaced `null` values with `0` for consistency.
+- Replaced blank rows with `Other` to maintain data integrity.
+- Changed data types from `Decimal Number` to `Whole Number` where needed.
+
+#### Data Cleaning (Vaccination Data)
+- Removed irrelevant columns to simplify the dataset.
+- Replaced blank rows with `Other` and `null` values with default date or `0` for consistency.
+
+#### Data Transformation
+- **Data Types**: Text, Date (from vaccination data), and Number (Decimal or Whole).
+- **Transformation Steps**:
+  - Split and combined columns for better organization.
+  - Merged date columns for both COVID-19 and vaccination data.
+  - Appended data and performed calculations for new metrics.
+  - Grouped and sorted data for clearer insights (e.g., by country).
+  
+#### Calculated Columns and Measures
+- Created custom calculated columns (`Ambross`, `Luds`) and measures for deeper insights.
+
+#### Model Optimization
+- Optimized fact table for faster processing and analysis.
+
+#### Report Enhancements
+- Added conditional formatting, slicers, filters, bookmarks, and drillthroughs for interactive and dynamic reporting.
+
+#### Publishing and Workspace Management
+- Published the report to Power BI Service.
+- Created a Final Exam workspace and app, published reports and dashboards, and shared the app link.
+
+#### Advanced Analytics
+- Used features like scatter with animation, clustering, Q&A, Key Influencers, Decomposition Tree, and forecasting for in-depth analysis.
+
+#### Dataset Management
+- Managed parameters for flexible and dynamic data exploration.
+
+
+
 ## Dashboards
 
