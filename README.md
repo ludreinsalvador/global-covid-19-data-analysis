@@ -94,13 +94,13 @@ Sourced from the World Health Organization (WHO), this dataset provides authorit
 
 ---
 ## Advanced Analytics
-- **Scatter with Animation**: Showcases trends over time.
-- **Clustering**: Identifies patterns among countries/regions.
-- **Q&A Functionality**: Interactive querying of data.
-- **Key Influencers**: Determines significant data factors.
+- **Scatter with Animation**: Showcased trends over time.
+- **Clustering**: Identified patterns among countries/regions.
+- **Q&A Functionality**: Made interactive querying of data.
+- **Key Influencers**: Determined significant data factors.
 - **Decomposition Tree**: Breaks down complex data insights.
-- **Forecasting**: Predicts COVID-19 trends.
-- **Symmetry Shading**: Highlights anomalies.
+- **Forecasting**: Predicted COVID-19 trends.
+- **Symmetry Shading**: Highlighted anomalies.
 
 ---
 ## Dataset Management
