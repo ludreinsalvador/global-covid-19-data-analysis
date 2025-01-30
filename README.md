@@ -110,5 +110,6 @@ The dataset, sourced from the World Health Organization (WHO), provides authorit
 - **Parameters Management**: Managed parameters for flexible data analysis and reporting, allowing users to adjust variables and customize views dynamically.
 
 ## Dashboards
-- <a href="
+- <a href="https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-covid-19_overview.png"></a>
+- <a href="[https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-covid-19_overview.png](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/global-vaccination_analysis.png)"></a>
 
