@@ -121,4 +121,4 @@ Sourced from the World Health Organization (WHO), this dataset provides authorit
 ---
 ## Paginated Report
 - [COVID-19 Vaccination Report (PDF)](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/WHO_global-covid-19_vaccination-paginated-report.pdf)
-
+- [COVID-19 Vaccination Report (RDL)](https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/WHO_global-covid-19_vaccination-paginated-report.rdl)
