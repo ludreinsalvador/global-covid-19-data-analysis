@@ -10,7 +10,7 @@ This project focuses on creating an interactive PowerBI dashboards to visualize 
 
 ## Dataset Used
 The dataset, sourced from the World Health Organization (WHO), provides authoritative global data on COVID-19 cases, deaths, and vaccinations. It is crucial for analyzing the pandemic's impact and monitoring vaccination progress worldwide.
-- <a href="=https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/WHO-COVID-19-global-data.csv">WHO-COVID-19-global-data.csv</a> - Contains daily reports on COVID-19 cases and deaths for various countries and regions.
+- <a href="https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/WHO-COVID-19-global-data.csv">WHO-COVID-19-global-data.csv</a> - Contains daily reports on COVID-19 cases and deaths for various countries and regions.
 - <a href="https://github.com/ludreinsalvador/global-covid-19_data_analysis_dashboards/blob/main/vaccination-data.csv">vaccination-data.csv</a> - Contains data on COVID-19 vaccinations, including the number of doses administered and the number of people vaccinated by country.
   
 ## Questions (KPIs)
