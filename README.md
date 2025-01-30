@@ -20,4 +20,32 @@ The dataset, sourced from the World Health Organization (WHO), provides authorit
 - How does the number of cases correlate with vaccination rates?
 - Are there any noticeable patterns in the data that suggest successful or unsuccessful public health strategies?
 
-- 
+## Key Data Columns Include:
+- Date: The specific date of the report.
+- Country/Region: The name of the country or region.
+- New cases: The number of new COVID-19 cases reported on that date.
+- Cumulative cases: The total number of COVID-19 cases reported up to that date.
+- New deaths: The number of new COVID-19 deaths reported on that date.
+- Cumulative deaths: The total number of COVID-19 deaths reported up to that date.
+- Total vaccinations: The total number of vaccine doses administered up to that date.
+- People vaccinated: The number of individuals who have received at least one dose of a COVID-19 vaccine.
+- People fully vaccinated: The number of individuals who have received all required doses of a COVID-19 vaccine.
+
+## Proposed Visualizations
+- Global Trends Line Chart:
+  - X-axis: Date
+  - Y-axis: Number of cases/deaths
+  - Series: New cases, New deaths
+- Heat Map:
+  - Dimensions: Countries/Regions
+Color Scale: Number of cases/deaths
+Bar Chart:
+X-axis: Countries/Regions
+Y-axis: Total vaccinations, People vaccinated, People fully vaccinated
+Scatter Plot:
+X-axis: Total vaccinations
+Y-axis: Number of cases
+Size: Population
+Map Visualization:
+Dimensions: Geographic locations
+Color/Size Indicators: Number of cases, Deaths, Vaccination rates
