@@ -38,14 +38,23 @@ The dataset, sourced from the World Health Organization (WHO), provides authorit
   - Series: New cases, New deaths
 - Heat Map:
   - Dimensions: Countries/Regions
-Color Scale: Number of cases/deaths
-Bar Chart:
-X-axis: Countries/Regions
-Y-axis: Total vaccinations, People vaccinated, People fully vaccinated
-Scatter Plot:
-X-axis: Total vaccinations
-Y-axis: Number of cases
-Size: Population
-Map Visualization:
-Dimensions: Geographic locations
-Color/Size Indicators: Number of cases, Deaths, Vaccination rates
+  - Color Scale: Number of cases/deaths
+- Bar Chart:
+  - X-axis: Countries/Regions
+  - Y-axis: Total vaccinations, People vaccinated, People fully vaccinated
+- Scatter Plot:
+  - X-axis: Total vaccinations
+  - Y-axis: Number of cases
+  - Size: Population
+- Map Visualization:
+  - Dimensions: Geographic locations
+  - Color/Size Indicators: Number of cases, Deaths, Vaccination rates
+
+## Process
+- Data Cleaning (WHO-COVID-19)
+  - Replaced 'null' values with '0': Ensured missing data for COVID-19 metrics (cases, deaths) is represented as zero, rather than leaving gaps in the dataset.
+Replaced blank rows with Other: For rows where no data is available, blank spaces were replaced with a generic "Other" category to avoid errors in analysis.
+Changed data types:
+Converted Decimal Numbers to Whole Numbers where appropriate to match the expected format for certain fields (e.g., case counts, deaths, etc.).
+## Dashboards
+
