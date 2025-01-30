@@ -52,42 +52,63 @@ The dataset, sourced from the World Health Organization (WHO), provides authorit
 
 ## Process
 #### Data Cleaning (WHO-COVID-19)
-- Replaced `null` values with `0` for consistency.
-- Replaced blank rows with `Other` to maintain data integrity.
-- Changed data types from `Decimal Number` to `Whole Number` where needed.
+- **Replaced `null` values with `0`**: Ensured missing data for COVID-19 metrics (cases, deaths) is represented as zero, rather than leaving gaps in the dataset.
+- **Replaced blank rows with `Other`**: For rows where no data is available, blank spaces were replaced with a generic "Other" category to avoid errors in analysis.
+- **Changed data types**:
+  - Converted `Decimal Numbers` to `Whole Numbers` where appropriate to match the expected format for certain fields (e.g., case counts, deaths, etc.).
 
 #### Data Cleaning (Vaccination Data)
-- Removed irrelevant columns to simplify the dataset.
-- Replaced blank rows with `Other` and `null` values with default date or `0` for consistency.
+- **Removed unnecessary columns**: 
+  - Columns such as `ISO3`, `DATA_SOURCE`, `DATA_UPDATED`, `TOTAL_VACCINATION_PER_100`, `PERSONS_VACCINATED_1PLUS_DOSE`, and others that did not provide significant insights were removed for clarity and efficiency.
+- **Replaced blank rows with `Other`**: Any rows with missing values were categorized as "Other" to maintain consistency and ensure no data was omitted unintentionally.
+- **Replaced `null` values with default date**: For missing date fields, a default placeholder date was used to prevent errors in time-based analysis.
+- **Replaced `null` values with `0`**: Numerical fields with missing values were filled with `0` to avoid calculation errors during data analysis.
 
 #### Data Transformation
-- **Data Types**: Text, Date (from vaccination data), and Number (Decimal or Whole).
-- **Transformation Steps**:
-  - Split and combined columns for better organization.
-  - Merged date columns for both COVID-19 and vaccination data.
-  - Appended data and performed calculations for new metrics.
-  - Grouped and sorted data for clearer insights (e.g., by country).
-  
+- **Data Types**: 
+  - The dataset includes various types of data:
+    - **Text** for categorical variables like country names.
+    - **Date** (from vaccination data) for tracking timelines and trends.
+    - **Number** (Decimal, Whole, or both) for quantitative data (e.g., case counts, vaccination rates).
+
+- **Transformation Methods**:
+  - **Splitting columns**: Divided combined columns to normalize data for easier analysis.
+  - **Combining columns**: Merged related columns (e.g., merging country and region into one column for broader analysis).
+  - **Merging columns**: Merged specific columns like country data with corresponding COVID-19 metrics for better regional analysis.
+  - **Date Merging**: Unified date columns from both vaccination and COVID-19 data sources to align time-based insights.
+  - **Appending data**: Combined datasets from different sources (e.g., different regions or periods) for a complete analysis.
+  - **Calculating new metrics**: Generated new calculated columns (e.g., `Vaccination Rate`, `Case Fatality Ratio`) to aid in deeper insights.
+  - **Grouping data**: Aggregated data (e.g., by country or continent) to derive high-level insights or regional comparisons.
+  - **Sorting data**: Sorted data (e.g., alphabetically by country) to simplify reporting and highlight specific patterns.
+
 #### Calculated Columns and Measures
-- Created custom calculated columns (`Ambross`, `Luds`) and measures for deeper insights.
+- **Calculated Columns**:
+  - A custom calculation based on specific data transformations.
+  - Another calculated column representing a unique transformation based on the dataset’s needs.
+
+- **Calculated Measures**: This is a measure derived from the dataset to quantify specific insights related to vaccination or COVID-19 spread.
 
 #### Model Optimization
-- Optimized fact table for faster processing and analysis.
+- Ensured the fact table is structured efficiently for faster processing and analysis, reducing unnecessary complexity in the data model.
 
-#### Report Enhancements
-- Added conditional formatting, slicers, filters, bookmarks, and drillthroughs for interactive and dynamic reporting.
-
-#### Publishing and Workspace Management
-- Published the report to Power BI Service.
-- Created a Final Exam workspace and app, published reports and dashboards, and shared the app link.
+#### Report Enhancement
+- Enhanced report visual appeal and readability by applying conditional formatting to highlight key trends (e.g., high case counts or vaccination rates).
+- Added slicers and filters to allow for dynamic exploration of the data by different regions, dates, or metrics.
+- Created bookmarks to easily navigate through different views of the report and save key filter settings for quick reference.
 
 #### Advanced Analytics
-- Used features like scatter with animation, clustering, Q&A, Key Influencers, Decomposition Tree, and forecasting for in-depth analysis.
+- **Advanced Analytics Features Used**:
+  - **Scatter with Animation**: Animated scatter plots to showcase trends over time (e.g., COVID-19 spread).
+  - **Clustering**: Grouped countries or regions with similar characteristics for deeper insights.
+  - **Q&A Functionality**: Enabled users to ask natural language questions about the data and get automated answers.
+  - **Key Influencers**: Identified the key factors influencing vaccination rates or COVID-19 case counts.
+  - **Decomposition Tree**: Used to break down data and understand the root causes of patterns in the dataset.
+  - **Forecasting**: Implemented forecasting to predict future trends in COVID-19 cases or vaccination rates (max of 3 points for simplicity).
+  - **Symmetry Shading**: Applied symmetry shading to highlight significant trends or anomalies in the data.
 
 #### Dataset Management
-- Managed parameters for flexible and dynamic data exploration.
-
-
+- **Parameters Management**: Managed parameters for flexible data analysis and reporting, allowing users to adjust variables and customize views dynamically.
 
 ## Dashboards
+- <a href="
 
