@@ -1,4 +1,4 @@
-# The Global Covid-19: Cases, Deaths, and Vaccination Trends
+# The Global COVID-19: Cases, Deaths, and Vaccination Trends
 
 ## About the Project
 This project focuses on creating interactive Power BI dashboards to visualize and analyze global COVID-19 data sourced from the World Health Organization (WHO). The dashboards offer insights into the spread, impact, and vaccination progress of COVID-19 across various regions.
